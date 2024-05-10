@@ -1,0 +1,26 @@
+.nav {
+  max-width: 1275px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navList {
+  display: flex;
+  gap: 16px;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link {
+  list-style: none;
+  color: black;
+}
