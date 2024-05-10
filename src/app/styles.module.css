@@ -1,0 +1,11 @@
+.mainHeight {
+    min-height: 100vh;
+    background-color: #3c769c;
+  }
+
+  .contentContainer {
+    width: 100%;
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+  }

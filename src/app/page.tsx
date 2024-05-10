@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className={styles.fullHeight}>
+    <main className={styles.mainHeight}>
       <Header/>
 
       
