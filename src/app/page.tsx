@@ -21,15 +21,7 @@ export default function Home() {
         </p>
       </div>
 
-        <form action="/report" className={styles.formContainer}>
-          <div className={styles.inputGroup}>
-            <label className={styles.formLabel} htmlFor="url"/>
-            <input className={styles.inputField} type="text" id="url" name="url" placeholder="Enter URL" required></input>
-          </div>
-          <button className={styles.submitButton} type="submit">
-            Check it
-          </button>
-        </form>
+        
       </div>
     </main>
   );

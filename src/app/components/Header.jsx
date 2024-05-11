@@ -13,8 +13,8 @@ const Header = () => {
             </Link>
           </li>
           <li className={styles.link}>
-            <Link prefetch={false} className={styles.link} href="/rules">
-              Rules
+            <Link prefetch={false} className={styles.link} href="/program">
+              Program
             </Link>
           </li>
         </ul>

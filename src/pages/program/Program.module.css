@@ -1,0 +1,50 @@
+.Contentbox {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.Filterbox{
+    display: flex;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    justify-content: center;
+}
+
+.Filterbox h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px; 
+    margin-right: 10px; 
+}
+
+.Filterbox h2:not(:last-child) {
+    border-right: 1px solid #e0e0e0;
+}
+
+.Filterbox h2:hover{
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.Sceneprogrambox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+}
+
+.Sceneh2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Dayschedule {
+  
+    justify-content: space-between;
+}
