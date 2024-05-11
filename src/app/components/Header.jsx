@@ -17,6 +17,11 @@ const Header = () => {
               Program
             </Link>
           </li>
+          <li className={styles.link}>
+            <Link prefetch={false} className={styles.link} href="/billetter">
+              Billetter
+            </Link>
+          </li>
         </ul>
       </nav>
     </main>

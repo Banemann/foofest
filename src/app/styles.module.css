@@ -1,11 +1,49 @@
-.mainHeight {
-    min-height: 100vh;
-    background-color: #3c769c;
-  }
+.contentContainer {
+  display: flex;
+  justify-content: center;
+}
 
-  .contentContainer {
-    width: 100%;
-    max-width: 640px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.navList {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.link {
+  flex-grow: 1;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.link img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  filter: brightness(0.6); 
+  transition: filter 0.5s;
+}
+
+
+.link:hover img {
+  filter: brightness(1); 
+}
+
+.link span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+.link:hover span {
+  opacity: 1;
+  color: black;
+}
