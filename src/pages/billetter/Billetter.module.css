@@ -1,0 +1,51 @@
+.Contentbox {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .AreaList {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .AreaList h2 {
+    transition: transform 0.3s ease;
+  }
+
+  .AreaList h2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .SelectedAreaName {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  
+  .Reservation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+  }
+  
+  .Reservation button {
+    background-color: #3824ac;
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    
+  }
+  
+  .Reservation span {
+    padding: 1%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
